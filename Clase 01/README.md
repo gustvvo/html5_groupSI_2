@@ -12,7 +12,7 @@ Uso de etiquetas:
 #### **02-uso-caracteres-latinos.html: Uso de charset** 
 
 
-#### **03-titulo-descripcion.html: Uso de charset para usar caracteres latinos**
+#### **03-titulo-descripcion.html: Uso de charset para usar caracteres latinos, de la etiqueta meta description y de la etiqueta Title**
 
 
 #### **04-encabezados.html: Uso de etiquetas de encabezado**
