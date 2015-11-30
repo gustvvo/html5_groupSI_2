@@ -1,8 +1,8 @@
-## HTML5
+## HTML5 + CSS3 + Javascript
 ## Clase 01
 
 
-#### **01-estructura-basica.html: Primer archivo con estructura HTML5** 
+#### **01-estructura-basica.html: Primer archivo con estructura** 
 Uso de etiquetas:
 * doctype
 * html
