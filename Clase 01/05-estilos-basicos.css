@@ -1,0 +1,40 @@
+/*
+selector {
+	propiedad1: valor1;
+	propiedad2: valor2;
+	propiedad3: valor3
+}
+*/
+
+/*Reglas de selectores de etiquetas */
+body {
+	font-size: 15px;
+	font-family: Roboto, Verdana, Arial
+}
+
+
+h1 {
+	font-family: arial;
+	font-size:18px;
+	color: red;
+}
+
+h2 {
+	color: green;
+	font-weight: normal;
+	/*
+		100
+		200
+		300
+		400
+		500
+		600
+		700 - bold
+		bolder
+	*/
+}
+
+h3 {
+	font-size: 20px;
+	font-style: italic;
+}

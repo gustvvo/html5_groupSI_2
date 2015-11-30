@@ -1,0 +1,19 @@
+/*Reglas de selectores de clase */
+
+.cabecera {
+	width: 100%;
+	height: 200px;
+	background-color: skyblue
+}
+
+.foto {
+	width:100%;
+	height: 400px;
+	background-color: blue;
+}
+
+.resena {
+	width:100%;
+	height: 600px;
+	background-color: red
+}

@@ -1,1 +1,2 @@
-# html5_groupSI_2
+# HTML5 + CSS3 + JAVASCRIPT 
+Instructor: Sergio Hidalgo
