@@ -1,0 +1,32 @@
+/*
+selector {
+	prop1: val1;
+	prop2: val2;
+	prop3: val3;
+}
+*/
+
+body {
+	font-family: Arial, Verdana, Times;
+	font-size: 40px;
+	font-weight: 700;
+	color: red;
+}
+
+h1 {
+	color:green;
+	font-size:20px;
+}
+
+h2 {
+	color:blue;
+	font-family: verdana
+}
+
+.cabecera {
+	color:skyblue;
+}
+
+
+
+

@@ -1,0 +1,17 @@
+.cabecera {
+	width:100%;
+	height: 200px;
+	background-color: green
+}
+
+.contenido {
+	width: 100%;
+	height: 500px;
+	background-color: yellow
+}
+
+.pie {
+	width: 100%;
+	height: 200px;
+	background-color: blue
+}
