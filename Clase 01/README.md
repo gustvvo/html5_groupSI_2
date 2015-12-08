@@ -1,5 +1,5 @@
 ## HTML5 + CSS3 + Javascript
-## Clase 01
+## Clase 01: Crear una página web con estructura simple y crear reglas de estilos usando selectores de etiquetas y de clase.
 
 
 #### **01-estructura-basica.html: Primer archivo con estructura** 
