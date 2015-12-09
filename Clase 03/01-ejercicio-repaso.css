@@ -12,17 +12,15 @@
 }
 
 .logo {
-	width:100px;
-	height: 94px;
+	width:157px;
+	height: 60px;
 	float:left;
-	background-color: skyblue
 }
 
 .menu {
-	width:120px;
-	height: 80px;
+	width:21px;
+	height: 17px;
 	float: right;
-	background-color: skyblue
 }
 
 .cuerpo {
