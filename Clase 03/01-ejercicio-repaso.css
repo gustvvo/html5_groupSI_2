@@ -36,7 +36,7 @@
 
 .foto {
 	width:100%;
-	background-color: cyan;
+	text-align: center;
 }
 
 .fotoBruno{
@@ -51,11 +51,18 @@
 }
 
 /* Versión Tablet  */
-@media (min-width:480px) {
+@media (min-width:800px) {
 	.resena,
 	.foto {
-		width:50%;
+		width:48.275862068966%;
+	}
+
+	.resena {
 		float:left;
+	}
+
+	.foto {
+		float:right;
 	}
 }
 
