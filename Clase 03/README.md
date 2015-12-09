@@ -1,5 +1,5 @@
 ## HTML5 + CSS3 + Javascript
-## Clase 03: Crear una página web agregando contenido.
+## Clase 03: Crear una página web agregando contenido y ajustando dimensiones y mediaqueries.
 
 #### **01-bloques.html: Creación de página** 
 Iniciar el ajuste de las dimensiones de los bloques
