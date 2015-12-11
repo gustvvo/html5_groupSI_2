@@ -79,18 +79,14 @@
 		padding-left:1%;
 		padding-right:1%;
 		width:46.275862068966%;
-	}
-
-	.foto {
-		width:48.275862068966%;
-	}
-	.resena {
 		float:left;
 	}
 
 	.foto {
+		width:48.275862068966%;
 		float:right;
 	}
+
 
 	.logoChico {
 		width:40%;
