@@ -1,6 +1,13 @@
+body {
+	margin:0;
+	padding:0;
+}
+
 /* Versión Smartphone */
 .contenedor {
 	width:100%;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 .cabecera {
@@ -32,7 +39,9 @@
 }
 
 .resena {
-	width:100%;
+	width:98%;
+	padding-left:1%;
+	padding-right:1%;
 	font-family: Arial;
 	font-size: 15px;	
 	text-align: justify;
@@ -76,9 +85,8 @@
 /* Versión Tablet  */
 @media (min-width:800px) {
 	.resena {
-		padding-left:1%;
-		padding-right:1%;
-		width:46.275862068966%;
+		padding-right:0;
+		width:47.275862068966%;
 		float:left;
 	}
 
@@ -110,8 +118,26 @@
 		width:1160px;
 	}
 
+	.logo {
+		margin-left:0;
+	}
+
+	.menu {
+		margin-right:0;
+	}
+
 	.logoChico {
 		margin-right: 0;
+	}
+
+	.resena {
+		padding-left:0;
+		width:48.275862068966%;
+		float:left;
+	}	
+
+	.textoDerechos {
+		margin-left:0;
 	}
 }
 
