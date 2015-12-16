@@ -1,0 +1,17 @@
+div {
+	width:400px;
+	height: 350px;
+}
+
+.capa01 {
+	background-color: red;
+	position: absolute;
+	top:100px;
+	left:100px;
+	z-index:2;
+}
+
+.capa02 {
+	background-color: green;
+	position: absolute;
+}
