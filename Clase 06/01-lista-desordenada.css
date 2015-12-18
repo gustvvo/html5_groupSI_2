@@ -1,0 +1,48 @@
+ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+li {
+	background-color: yellow;
+	width:300px;
+	height:50px;
+	margin-bottom:5px;
+}
+
+a{
+	display: block;
+	width:291px;
+	height: 35px;
+	border-left: 4px solid #ff0000;
+	text-decoration:none;
+	padding-left: 5px;
+	padding-top:15px;
+	color:#9F9FF1;
+	font-family: Arial;
+	font-size:14px;
+}
+
+a:hover {
+	border-left: 4px solid #0000ff;
+}
+
+a.economia:hover {
+	border-left: 4px solid orange
+}
+
+a.sobre:hover {
+	border-left: 4px solid green
+}
+
+a:visited {
+	color: #9F9FF1;
+}
+
+a:active {
+	color: #9F9FF1;
+}
+
+
+
