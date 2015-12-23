@@ -1,0 +1,41 @@
+body {
+	margin:0;
+	padding: 0
+}
+
+ul {
+	padding: 0;
+	margin:0;
+	list-style:none;
+}
+
+li {
+	width:100px;
+	height: 30px;
+	float:left	
+}
+
+a {
+	width:100px;
+	height: 26px;
+	padding-top:4px;
+	display: block;
+	text-align: center;
+	background-color: green;
+	text-decoration: none;
+	color:white;
+}
+
+a:link,
+a:active,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: #28492c;
+	border-top: 2px solid red;
+	border-bottom: 2px solid red;	
+	padding-top:2px;
+	height: 24px;
+}
