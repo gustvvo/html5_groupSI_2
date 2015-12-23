@@ -1,0 +1,5 @@
+body {
+	background-image: url(emoticon-feliz.png);
+	background-repeat: no-repeat; /* No se repite */
+	background-position: center center
+}

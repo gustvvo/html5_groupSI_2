@@ -1,0 +1,6 @@
+body {
+	background-image: url(emoticon-feliz.png);
+	background-repeat: no-repeat; /* No se repite */
+	background-repeat: repeat-y; /* Se repite de arriba hacia abajo */
+	background-repeat: repeat-x; /* Se repite de izquierda a derecha */
+}
