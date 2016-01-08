@@ -1,0 +1,103 @@
+
+
+
+
+.resena {
+	width:98%;
+	padding-left:1%;
+	padding-right:1%;
+	font-family: Arial;
+	font-size: 15px;	
+	text-align: justify;
+}
+
+.foto {
+	width:100%;
+	text-align: center;
+}
+
+.fotoBruno{
+	width:100%;
+	max-width:559px;
+}
+
+
+/* Versión Tablet  */
+@media (min-width:800px) {
+	.resena {
+		padding-right:0;
+		width:47.275862068966%;
+		float:left;
+	}
+
+	.foto {
+		width:48.275862068966%;
+		float:right;
+	}
+
+
+	.logoChico {
+		width:40%;
+		float:right;
+		text-align: right;
+		margin-right:1%;
+	}
+
+	.textoDerechos{
+		width:50%;
+		float:left;
+		text-align: left;
+		margin-left:1%;
+	}
+
+}
+
+@media (min-width:836px) {
+	.zonaMenu,
+	.menu {
+		display: none;
+	}
+
+	nav {
+		display: block;
+	}
+}
+
+
+/* Versión Desktop */
+@media (min-width:1160px) {
+	.contenedor {
+		width:1160px;
+	}
+
+	.logo {
+		margin-left:0;
+	}
+
+	.menu {
+		margin-right:0;
+	}
+
+	.logoChico {
+		margin-right: 0;
+	}
+
+	.resena {
+		padding-left:0;
+		width:48.275862068966%;
+		float:left;
+	}	
+
+	.textoDerechos {
+		margin-left:0;
+	}
+
+	nav ul li {
+		width:16.666666667%;
+		height:95px;
+	}
+
+	nav ul li a {
+		height: 80px;
+	}
+}
