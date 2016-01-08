@@ -30,8 +30,8 @@
 
 .cuerpo .contenidoVideo {
 	width:98%;
+	max-width: 560px;
 	margin:46px auto 0 auto;
-
 }
 
 .cuerpo .contenidoVideo .video {
@@ -57,7 +57,14 @@
 	margin-bottom: 50px
 }
 
-
+@media (min-width:650px) {
+	.cuerpo .contenidoVideo {
+		width:46%;
+		float: left;
+		margin-left: 2%;
+		margin-right:2%;
+	}
+}
 
 
 
