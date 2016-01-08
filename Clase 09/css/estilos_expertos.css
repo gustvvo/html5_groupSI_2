@@ -1,41 +1,68 @@
-
-
-
-
-.resena {
-	width:98%;
-	padding-left:1%;
-	padding-right:1%;
+.cuerpo h1.titulo {
 	font-family: Arial;
-	font-size: 15px;	
-	text-align: justify;
-}
-
-.foto {
-	width:100%;
+	font-size: 26px;
+	font-weight: normal;
+	color: #545454;
+	margin-top:50px;
+	margin-bottom:0;
+	padding: 0;
 	text-align: center;
+	text-transform: uppercase;
+	/*
+		text-transform: lowercase;
+		text-transform: capitalize;
+	*/
 }
 
-.fotoBruno{
-	width:100%;
-	max-width:559px;
+.cuerpo h2.titulo {
+	font-family: Arial;
+	font-size: 26px;
+	color: #fff;  /* #ff55bb = #f5b  */	
+	font-weight: normal;
+	background-color:#376b3d;
+	text-transform: uppercase;
+	text-align: center;
+	width:244px;
+	height: 34px;
+	margin:0 auto;  /* margin: 0 auto 0 auto;  */
+	padding-top:8px;
 }
+
+.cuerpo .contenidoVideo {
+	width:98%;
+	margin:46px auto 0 auto;
+
+}
+
+.cuerpo .contenidoVideo .video {
+	width:100%;
+}
+
+.cuerpo .contenidoVideo h2 {
+	margin:32px auto 0 auto;
+	/*margin-top: 32px;*/
+	width:98%;
+	font-family: Arial;
+	font-size: 16px;
+	color:#545454;
+	text-align: justify;
+	font-weight: normal;
+}
+
+.cuerpo .contenidoVideo h2 span {
+	font-weight: bold;
+}
+
+.cuerpo .contenidoVideo.margenInferiorCero {
+	margin-bottom: 50px
+}
+
+
+
 
 
 /* Versión Tablet  */
 @media (min-width:800px) {
-	.resena {
-		padding-right:0;
-		width:47.275862068966%;
-		float:left;
-	}
-
-	.foto {
-		width:48.275862068966%;
-		float:right;
-	}
-
-
 	.logoChico {
 		width:40%;
 		float:right;
@@ -81,12 +108,6 @@
 	.logoChico {
 		margin-right: 0;
 	}
-
-	.resena {
-		padding-left:0;
-		width:48.275862068966%;
-		float:left;
-	}	
 
 	.textoDerechos {
 		margin-left:0;
