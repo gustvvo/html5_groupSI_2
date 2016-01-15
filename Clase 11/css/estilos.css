@@ -87,4 +87,20 @@ article.autor {
 	article.autor div.foto {
 		width:180px;
 		height: 189px;
+		margin:10px auto 0 auto;
 	}
+
+	article.autor h1 {
+		margin:0;
+		padding:0;
+		font-size:26px;
+		text-align: center;
+	}
+
+	article.autor h2 {
+		margin:0;
+		padding:0;
+		font-size:18px;
+		font-weight: normal;
+		text-align: center;
+	}	
