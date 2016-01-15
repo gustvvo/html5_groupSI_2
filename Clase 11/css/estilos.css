@@ -153,6 +153,7 @@ footer {
 	padding-bottom: 15px;
 }
 
+/*Versión tableta*/
 @media (min-width:550px) {
 	article.autor {
 		height: 50px;
@@ -161,7 +162,7 @@ footer {
 	article.autor div.foto {
 		float:left;
 		position: relative;
-		top:-131px;
+		margin-top:-131px;
 		left:10px;
 	}
 
@@ -169,5 +170,34 @@ footer {
 		float:left;
 		margin-left:30px;
 		text-align: left;
+	}
+
+	article.descripcion div.ultimosProyectos div.proyecto {
+		float:left;
+		margin-right:20px;
+	}
+
+	article.descripcion div.ultimosProyectos {
+		height: 180px;
+	}
+}
+
+/*Versión desktop */
+@media (min-width:1078px) {
+
+	article.descripcion div.intro {
+		width:46%;
+		padding-left:2%;
+		padding-right:2%;
+		float: left;
+	}
+
+	article.descripcion div.ultimosProyectos {
+		width:50%;
+		float:left;
+	}
+
+	article.descripcion {
+		height: 200px;
 	}
 }
