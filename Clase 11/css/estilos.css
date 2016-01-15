@@ -99,9 +99,7 @@ article.autor {
 		text-align: center;
 	}
 
-	article.autor h2 {
-		margin:0;
-		padding:0;
+	article.autor span {
 		font-size:18px;
 		font-weight: normal;
 		text-align: center;
@@ -153,4 +151,23 @@ footer {
 	text-align: center;
 	padding-top:15px;
 	padding-bottom: 15px;
+}
+
+@media (min-width:550px) {
+	article.autor {
+		height: 50px;
+	}
+
+	article.autor div.foto {
+		float:left;
+		position: relative;
+		top:-131px;
+		left:10px;
+	}
+
+	article.autor h1 {
+		float:left;
+		margin-left:30px;
+		text-align: left;
+	}
 }
