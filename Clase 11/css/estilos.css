@@ -82,6 +82,8 @@ section.banner {
 
 article.autor {
 	width:100%;
+	border-bottom: 1px solid #ccc;
+	padding-bottom:24px;
 }
 	
 	article.autor div.foto {
@@ -104,3 +106,51 @@ article.autor {
 		font-weight: normal;
 		text-align: center;
 	}	
+
+	article.descripcion {
+		width:100%;
+		border-bottom: 1px solid #ccc;
+		padding-bottom:24px;
+	}
+
+		article.descripcion div.intro {
+			width:96%;
+			margin:0 auto;
+		}
+
+			article.descripcion div.intro h2 {
+				font-size:24px;
+			}
+
+			article.descripcion div.intro span {
+				font-size:14px;
+				text-align: justify;
+				display: block;
+			}
+
+		article.descripcion div.ultimosProyectos {
+			width:96%;
+			margin:0 auto;
+		}
+
+			article.descripcion div.ultimosProyectos div.proyecto {
+				width:156px;
+				margin:0 auto 10px auto;
+			}
+
+				article.descripcion div.ultimosProyectos div.proyecto h2 {
+					margin:0;
+					padding: 0;
+					font-size: 15px;
+					color:#5b5b5b;
+					font-weight: normal;
+					text-align: center;
+				}
+
+footer {
+	font-size: 14px;
+	color:#5b5b5b;
+	text-align: center;
+	padding-top:15px;
+	padding-bottom: 15px;
+}
