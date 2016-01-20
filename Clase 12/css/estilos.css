@@ -5,11 +5,15 @@ body {
 
 .contenedorSuperior {
 	width:100%;
-	background: #000;
+	background-color: #000;
+	background-image: url(../imagenes/fondo-linea.gif);
+	background-repeat: repeat-x;
+
 }
 
 .contenedorSuperior header {
 	width:1170px;
+	height: 119px;
 	margin:0 auto;
 	overflow: hidden;
 }
