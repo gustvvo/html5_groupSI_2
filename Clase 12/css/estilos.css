@@ -17,6 +17,13 @@ body {
 	height: 119px;
 	margin:0 auto;
 	overflow: hidden;
+
+}
+
+.contenedorSuperior header.fijo {
+	position: fixed;
+	background: #000;
+	width:100%;	
 }
 
 .contenedorSuperior div.logo {
@@ -95,6 +102,7 @@ body {
 
 .contenedorSuperior figure h1 span {
 	color:#1dde85;
+	text-transform: uppercase;
 }
 
 .contenedorSuperior figure h2 {
@@ -102,6 +110,59 @@ body {
 	font-size: 19px;
 	color:#fff;
 	margin:55px auto 0 auto;
+}
+
+.contenedorInferior {
+	width:100%;
+}
+
+.contenedorInferior article {
+	width:1170px;
+	margin:0 auto;
+}
+
+.contenedorInferior article h1 {
+	width:100%;
+	color:#000;
+	margin:0;
+	padding:125px 0 0 0;
+	font-size: 31px;
+	text-align: center;
+}
+
+.contenedorInferior article h1 span {
+	color:#1dde85;
+	text-transform: uppercase;	
+}
+
+.contenedorInferior article p {
+	text-align: center;
+	font-size: 19px;
+	color: #8f8e91;
+	margin-top: 60px
+}
+
+.contenedorInferior div.servicios {
+	width:100%;
+	overflow: hidden;
+}
+
+.contenedorInferior div.servicio {
+	width:358px;
+	height: 250px;
+	border:1px solid #c3c1bf;
+	float: left;
+	margin:15px;
+}
+
+.contenedorInferior div.servicio img {
+	margin:0 auto;
+	display: block;
+	padding-top: 10px
+}
+
+.contenedorInferior div.servicio h3 {
+	text-align: center
 }
 
 
