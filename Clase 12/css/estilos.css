@@ -11,10 +11,73 @@ body {
 .contenedorSuperior header {
 	width:1170px;
 	margin:0 auto;
+	overflow: hidden;
 }
 
 .contenedorSuperior div.logo {
 	float:left;
 	width:137px;
-	height: 36px
+	height: 36px;
+	margin-top:43px;
 }
+
+.contenedorSuperior nav {
+	float:right;
+	margin-top:56px;
+}
+
+.contenedorSuperior ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+.contenedorSuperior ul li {
+	float:left;
+	display: block;
+	width:110px;
+	height: 31px;
+}
+
+.contenedorSuperior li a {
+	width:110px;
+	height: 31px;
+	display: block;
+	color:#fff;
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 15px;
+	text-align: center;
+}
+
+.contenedorSuperior li a:link,
+.contenedorSuperior li a:visited,
+.contenedorSuperior li a:active {
+	text-decoration: none
+}
+
+.contenedorSuperior li a:hover {
+	color:#1dde85;
+	border-bottom:1px solid #1dde85;
+	height: 30px;
+}
+
+
+
+
+
+
+
+
+
+.contenedorSuperior figure {
+	margin:0;
+}
+
+
+
+
+
+
+
+
