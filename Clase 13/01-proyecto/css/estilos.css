@@ -1,0 +1,178 @@
+body {
+	padding: 0;
+	margin:0;
+	font-family: Arial;
+}
+
+.contenedorSuperior {
+	width:100%;
+	background-color: #000;
+	background-image: url(../imagenes/fondo-linea.gif);
+	background-repeat: repeat-x;
+
+}
+
+.contenedorSuperior header {
+	width:1170px;
+	height: 119px;
+	margin:0 auto;
+	overflow: hidden;
+
+}
+
+.contenedorSuperior header.fijo {
+	position: fixed;
+	background: #000;
+	width:100%;	
+}
+
+.contenedorSuperior div.logo {
+	float:left;
+	width:137px;
+	height: 36px;
+	margin-top:43px;
+}
+
+.contenedorSuperior nav {
+	float:right;
+	margin-top:56px;
+}
+
+.contenedorSuperior ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+.contenedorSuperior ul li {
+	float:left;
+	display: block;
+	width:110px;
+	height: 31px;
+}
+
+.contenedorSuperior li a {
+	width:110px;
+	height: 31px;
+	display: block;
+	color:#fff;
+	text-decoration: none;
+	font-size: 15px;
+	text-align: center;
+}
+
+.contenedorSuperior li a:link,
+.contenedorSuperior li a:visited,
+.contenedorSuperior li a:active {
+	text-decoration: none
+}
+
+.contenedorSuperior li a:hover {
+	color:#1dde85;
+	border-bottom:1px solid #1dde85;
+	height: 30px;
+}
+
+
+
+.contenedorSuperior figure {
+	width:100%;
+	height: 683px;
+	background-image:url(../imagenes/fondo.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin:0;
+	padding-top:1px;
+}
+
+.contenedorSuperior figure.conMargen {
+	margin-top:150px;
+}
+
+.contenedorSuperior figure h1, 
+.contenedorSuperior figure h2 {
+	padding: 0;
+	text-align: center;
+}
+
+.contenedorSuperior figure h1 {
+	width:600px;
+	color:#fffcf4;
+	font-size:49px;
+	margin:260px auto 0 auto;
+
+}
+
+.contenedorSuperior figure h1 span {
+	color:#1dde85;
+	text-transform: uppercase;
+}
+
+.contenedorSuperior figure h2 {
+	width:894px;
+	font-size: 19px;
+	color:#fff;
+	margin:55px auto 0 auto;
+}
+
+.contenedorInferior {
+	width:100%;
+}
+
+.contenedorInferior article {
+	width:1170px;
+	margin:0 auto;
+}
+
+.contenedorInferior article h1 {
+	width:100%;
+	color:#000;
+	margin:0;
+	padding:125px 0 0 0;
+	font-size: 31px;
+	text-align: center;
+}
+
+.contenedorInferior article h1 span {
+	color:#1dde85;
+	text-transform: uppercase;	
+}
+
+.contenedorInferior article p {
+	text-align: center;
+	font-size: 19px;
+	color: #8f8e91;
+	margin-top: 60px
+}
+
+.contenedorInferior div.servicios {
+	width:100%;
+	overflow: hidden;
+}
+
+.contenedorInferior div.servicio {
+	width:358px;
+	height: 250px;
+	border:1px solid #c3c1bf;
+	float: left;
+	margin:15px;
+}
+
+.contenedorInferior div.servicio img {
+	margin:0 auto;
+	display: block;
+	padding-top: 10px
+}
+
+.contenedorInferior div.servicio h3 {
+	text-align: center
+}
+
+
+
+
+
+
+
+
