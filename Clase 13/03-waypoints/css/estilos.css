@@ -1,0 +1,24 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body * {
+	width:100%;
+	height: 300px;
+}
+
+header {background: red}
+article {background: green}
+section {background: blue}
+div {background: purple}
+footer {background: brown}
+aside {
+	position:fixed;
+	width:400px;
+	height:200px;
+	top:150px;
+	left:-400px;
+	background: orange;
+	transition: 1s left;
+}

@@ -30,4 +30,5 @@ aside {
 	position:fixed;
 	left: 0px;
 	background: cyan;
+	transition: 1s all;
 }

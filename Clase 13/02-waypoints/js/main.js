@@ -16,6 +16,22 @@ $("div").waypoint(
 					"fontFamily": "Arial"
 				}
 			);
+
+			$("aside").css("left", "0");
+
 		}		
+	}
+)
+
+$("footer").waypoint(
+	{
+		handler: function(dir){
+			if(dir=="down") {
+				$("article#nuevoArticle").css("backgroundColor", "magenta");
+			} else {
+				$("article#nuevoArticle").css("backgroundColor", "brown");
+			}
+			
+		}
 	}
 )
