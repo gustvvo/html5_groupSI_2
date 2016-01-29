@@ -1,0 +1,35 @@
+/*   
+	<html class="multiplebgs">
+		<body>
+			<article>
+*/
+.multiplebgs article {
+	background: url(../img/fondo01.jpg) no-repeat top left, 
+				url(../img/fondo02.jpg) no-repeat bottom right;
+	width:800px;
+	height: 600px;
+}
+
+
+/*   
+	<html class="no-multiplebgs">
+		<body>
+			<article>
+*/
+.no-multiplebgs article {
+	background: red;
+	width:800px;
+	height: 600px;
+}
+
+.cssgradients section {
+	width:500px;
+	height: 500px;
+	background: linear-gradient(red, orange);
+}
+
+.no-cssgradients section {
+	width:500px;
+	height: 500px;
+	background: orange;
+}

@@ -1,0 +1,29 @@
+article {
+	width:400px;
+	height: 200px;
+	border: 1px solid gray;
+}
+
+div {
+	width:44px;
+	height: 44px;
+	background-image: url(../img/img_navsprites.gif);
+	float:left;
+}
+section {
+	width:200px;
+	height:50px;
+	font-family: Arial;
+	font-size:30px;
+	text-transform: uppercase;
+	float:left;
+}
+
+article.home:hover {
+	background-color: green;
+}
+
+article.home:hover div {
+	background-position: right top;
+}
+

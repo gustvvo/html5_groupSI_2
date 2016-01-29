@@ -1,0 +1,22 @@
+div {
+	width:44px;
+	height: 44px;
+	background-image: url(../img/img_navsprites.gif);
+
+}
+
+div.home {
+	background-position: left top;
+}
+
+div.izquierda {
+	background-position: center top;
+}
+
+div.izquierda:hover {
+	background-position: right top;
+}
+
+div.derecha {
+	background-position: right top;
+}

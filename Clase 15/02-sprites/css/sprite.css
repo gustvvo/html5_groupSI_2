@@ -1,0 +1,19 @@
+div {
+	width:108px;
+	height: 108px;
+	background: url(../img/estrella.png)
+}
+
+div:hover {
+	background-position: right top
+}
+
+article {
+	width:108px;
+	height: 108px;
+	background: url(../img/sprite4.png)
+}
+
+article:hover {
+	background-position: -216px 0;
+}
