@@ -1,0 +1,24 @@
+body {
+	margin:0;
+	padding:0;
+	background-color: gray;
+}
+
+article {
+	margin:50px auto;
+	width:400px;
+	height:150px;
+	background-color: #ccc;
+	border-radius: 30px;
+	box-shadow: 0 0 15px #000;
+	font-family: Arial;
+	font-size: 45px;
+	color:#000;
+	text-align: center;
+	padding-top:100px;
+	text-shadow: 1px 1px gray,
+				 2px 2px gray,
+				 3px 3px gray,
+				 4px 4px gray,
+				 5px 5px gray;
+}
