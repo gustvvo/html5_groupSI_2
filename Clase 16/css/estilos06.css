@@ -1,0 +1,43 @@
+body {
+	margin:0;
+	padding:0;
+	background-color: black;
+}
+
+div {
+	width:500px;
+	height:500px;
+	margin:200px auto;
+	transition:2s all;
+	position: relative;
+}
+
+article {
+	width:200px;
+	height: 200px;
+	top:250px;
+	left:150px;
+	border-radius: 100px;
+	transition:0.2s all;
+	position: absolute;
+}
+
+article.rojo {
+	background-color: red;
+}
+
+article.verde {
+	background-color: green;
+}
+
+div:hover {
+	transform: rotate(720deg);
+}
+
+div:hover article.rojo {
+	transform: scale(0.2) translate(-100px, -100px);
+}
+
+div:hover article.verde {
+	transform: scale(0.2) translate(100px, 100px);
+}

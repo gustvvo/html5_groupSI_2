@@ -1,0 +1,62 @@
+body {
+	margin:0;
+	padding:0;
+	background-color: black;
+}
+
+div {
+	width:500px;
+	height:500px;
+	margin:200px auto;
+	transition:10s all;
+	position: relative;
+	transform-origin:center center;
+}
+
+article {
+	width:100px;
+	height: 100px;
+	top:200px;
+	left:200px;
+	border-radius: 50px;
+	transition:0.2s all;
+	position: absolute;
+}
+
+article.rojo {
+	background-color: red;
+}
+
+article.verde {
+	background-color: green;
+}
+
+article.amarillo {
+	background-color: yellow;
+}
+
+article.azul {
+	background-color: blue;
+}
+
+
+
+div:hover article.rojo {
+	transform: translate(-100px, -100px);
+}
+
+div:hover article.verde {
+	transform: translate(100px, 100px);
+}
+
+div:hover article.amarillo {
+	transform: translate(100px, -100px);
+}
+
+div:hover article.azul {
+	transform: translate(-100px, 100px);
+}
+
+div:hover {
+	transform: rotate(3600deg);
+}
