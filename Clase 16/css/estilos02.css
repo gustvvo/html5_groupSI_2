@@ -6,10 +6,12 @@ body {
 
 
 div.contenedor {
-	width:200px;
+	width:204px;
 	height: 400px;
 	margin:50px auto;
 	position: relative;
+	transform: rotate(-21deg);
+	transform-origin: left top;
 }
 
 aside {
@@ -37,6 +39,7 @@ div.pelo {
 
 div.pelo.izq {
 	left:40px;
+	transform: rotate(-44deg);	
 }
 
 div.pelo.der {

@@ -1,0 +1,45 @@
+body {
+	margin:0;
+	padding: 0;
+	background-color: gray;
+}
+
+div.contenedor {
+	width:600px;
+	margin:90px auto;
+	position: relative;
+}
+
+article {
+	width:267px;
+	height:400px;
+	padding: 10px 10px 50px 10px;
+	background-color: white;
+	box-shadow: 8px 8px 4px #000;
+	position: absolute;
+	border:1px solid #000;
+	z-index:1;
+}
+
+article.foto1 {
+	transform: rotate(-10deg);
+	transform-origin:right bottom;
+	transition: 0.5s all;
+}
+
+article.foto2 {
+	left: 230px;
+	transform: rotate(10deg);
+	transform-origin:left bottom;
+	transition: 0.5s all;	
+}
+
+article.foto1:hover {
+	transform: rotate(-5deg) scale(1.1);
+	z-index:2;
+}
+
+article.foto2:hover {
+	transform: rotate(5deg) scale(1.1);
+	z-index:2;
+}

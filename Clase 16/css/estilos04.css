@@ -1,0 +1,43 @@
+body {
+	margin:0;
+	padding: 0;
+}
+
+article {
+	margin:100px auto;
+	width:400px;
+	height:400px;
+	border: 3px solid black;
+	border-radius: 200px;
+	position: relative;
+}
+
+section.segundero {
+	width:3px;
+	height:180px;
+	top:20px;
+	left:203px;
+	background-color: black;
+	transform-origin:center bottom;	
+	transition:600s all;
+	position:absolute;	
+}
+
+article:hover section.segundero {
+	transform:rotate(3600deg);
+}
+
+section.minutero {
+	width:3px;
+	height:150px;
+	top:50px;
+	left:203px;
+	background-color: red;
+	transform-origin:center bottom;	
+	transition:36000s all;
+	position:absolute;
+}
+
+article:hover section.minutero {
+	transform:rotate(3600deg);
+}
