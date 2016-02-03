@@ -1,0 +1,44 @@
+body {
+	margin:0;
+	padding: 0;
+	background: gray;
+}
+
+
+div.contenedor {
+	width:200px;
+	height: 400px;
+	margin:50px auto;
+	position: relative;
+}
+
+aside {
+	position:absolute;
+	background: yellow;
+	width:200px;
+	height: 180px;
+	border-radius: 70px 70px 0 0;
+	border-width:2px 2px 0 2px;
+	border-style: solid;
+	border-color: #000;
+	position: relative;
+}
+
+div.pelo {
+	position:absolute;
+	width:50px;
+	height: 50px;
+	border-radius: 25px 25px 0 0;
+	border-width:2px 2px 0 2px;
+	border-style: solid;
+	border-color: #000;	
+	top: -17px;
+}
+
+div.pelo.izq {
+	left:40px;
+}
+
+div.pelo.der {
+	right:40px;
+}
