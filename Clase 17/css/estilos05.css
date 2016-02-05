@@ -1,0 +1,67 @@
+article {
+	width:200px;
+	height: 200px;
+	background-color: green;
+	margin:30px auto;
+	font-family: Arial;
+	font-size:30px;
+	text-align: center;
+	color:white;
+	font-weight: bold;
+	transition:3s all;
+}
+
+section {
+	width:200px;
+	height: 200px;
+	background-color: blue;
+	margin:30px auto;
+	font-family: Arial;
+	font-size:30px;
+	text-align: center;
+	color:white;
+	font-weight: bold;
+	transition:3s all;
+}
+
+aside {
+	width:200px;
+	height: 200px;
+	background-color: purple;
+	margin:30px auto;
+	font-family: Arial;
+	font-size:30px;
+	text-align: center;
+	color:white;
+	font-weight: bold;
+	transition:3s all;
+}
+
+div {
+	width:200px;
+	height: 200px;
+	background-color: magenta;
+	margin:30px auto;
+	font-family: Arial;
+	font-size:30px;
+	text-align: center;
+	color:white;
+	font-weight: bold;
+	transition:3s all;
+}
+
+body:hover article {
+	transform: rotateX(45deg);
+}
+
+body:hover section {
+	transform: rotateX(-180deg);
+}
+
+body:hover aside {
+	transform: rotateY(50deg);
+}
+
+body:hover div {
+	transform: rotateX(45deg) rotateY(45deg);
+}

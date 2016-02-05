@@ -1,0 +1,42 @@
+
+div.contenedor {
+	margin-top:100px;
+	width:900px;
+	height: 400px;
+	background-color: cyan;
+	perspective: 1000px;
+}
+
+section {
+	width:900px;
+	height: 400px;
+	animation: 10s animar infinite;	
+	transform-style: preserve-3d;
+}
+
+article {
+	width:400px;
+	height: 400px;
+	position: absolute;
+}
+
+
+
+article.uno {
+	left:250px;
+	transform: translateZ(250px);
+}
+
+article.dos {
+	left:250px;
+	transform: translateZ(-250px);	
+}
+
+@keyframes animar {
+	0% {
+		transform: rotateY(0deg);
+	}
+	100% {
+		transform: rotateY(360deg);
+	}
+}

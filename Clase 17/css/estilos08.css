@@ -1,0 +1,18 @@
+article	{
+	margin:100px auto;
+	width:400px;
+	height:400px;
+	perspective: 500px;
+
+}
+
+img {
+	transition: 5s all;
+}
+/*img {
+	transform: rotateX(45deg);
+}*/
+
+article:hover img {
+	transform: rotateX(180deg);
+}
