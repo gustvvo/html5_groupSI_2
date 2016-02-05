@@ -1,0 +1,30 @@
+body {
+	margin:0;
+	padding: 0;
+}
+
+article {
+	width:200px;
+	height: 200px;
+	margin:50px;
+}
+
+article.uno {
+	background-color: blue;
+	transition: 2s all linear;
+}
+
+article.dos {
+	background-color: green;
+	/*transition: 2s all ease;*/
+	transition:2s all ease-out;
+}
+
+article.tres {
+	background-color: red;
+	transition: 2s all ease-in;
+}
+
+body:hover article {
+	transform: translate(250px,0) rotate(180deg);
+}

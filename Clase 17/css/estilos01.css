@@ -1,0 +1,39 @@
+body {
+	margin:0;
+	padding:0;
+}
+
+article {
+	margin:20px auto;
+	width:50%;
+	height:150px;
+	border-width:1px;
+	border-color: red blue green orange;
+	border-style: solid;
+}
+
+article.uno {
+	background-color:purple;
+	transform: rotate(-45deg);
+	transform-origin: left bottom;
+}
+
+article.dos {
+	background-color: brown;
+	transform: scale(2);
+}
+
+article.tres {
+	background-color: cyan;
+	transform: scale(0.2) rotate(90deg);
+}
+
+article.cuatro {
+	background-color: pink;
+	transform: translate(50px, -50px);
+}
+
+article.cinco {
+	background-color: magenta;
+	transform: rotate(20deg) translate(100px, 0);
+}
