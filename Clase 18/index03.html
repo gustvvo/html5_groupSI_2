@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf8">
+	<style>
+	 h1 {
+	 	font-family: Arial;
+	 	font-size:20px;
+	 }
+
+	 p {
+	 	font-family: Verdana;
+	 	font-size:16px;
+	 	color: red;
+	 }
+
+	</style>
+</head>
+<body>
+
+	<h1>¿Quién es?</h1>
+	<p id="nombre"></p>
+
+	<script>
+	 var nombreUsuario = prompt("¿Cómo te llamas?");
+
+	 var nombre = document.getElementById("nombre");
+	 nombre.innerHTML = nombreUsuario;
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title></title>
+	<meta charset="utf8">
+</head>
+<body>
+
+	<fieldset>
+		<legend>Recordatorio</legend>
+
+		<p>¿Qué debo comprar?</p>
+		<p id="recordatorio1"></p>
+		<p id="fecha"></p>
+	</fieldset>
+
+
+<script>
+	var post1 = "comprar gas"; //post1 es de tipo texto (o cadena o string)
+	var post2 = "03/02/2015"; 
+	var post3 = 45; //post3 es de tipo numérico entero (o integer)
+	var post4 = ["leche", "azúcar", "arroz"]; //post4 es de tipo arreglo (o array)
+
+	var recordar = document.getElementById("recordatorio1");
+	recordar.innerHTML = post1;
+
+	var fecha = document.getElementById("fecha");
+	fecha.innerHTML = post2;
+
+
+
+</script>
+
+
+</body>
+</html>
