@@ -1,2 +1,14 @@
 Para descargar un repositorio
 git clone <<dirección repositorio>>
+
+Para saber qué archivos y carpetas no se les hace seguimiento.
+git status
+
+Para monitorear archivos que no están siendo monitoreados o que han sido modificados
+git add .
+
+Para hacer commit
+git commit -m "<<nombre de etiqueta>>"
+
+Para subir al repositorio
+git push origin master
