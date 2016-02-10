@@ -16,6 +16,44 @@
 	<hr>
 
 	<button id="preguntaNombres">Nombres</button>
+	<button id="preguntaApellidos">Apellidos</button>
+	<button id="preguntaEdad">Edad</button>
+
+	<script>
+		//Para preguntar los nombres
+		var boton = document.getElementById("preguntaNombres");
+
+		boton.addEventListener("click", function(){
+			var nombre = prompt("¿Cuál es su nombre?");
+
+			var pNombres = document.getElementById("nombres");
+			pNombres.innerHTML = nombre;
+		});
+
+		//Para preguntar los apellidos
+		var botonApellidos = document.getElementById("preguntaApellidos");
+
+		botonApellidos.addEventListener("click", function(){
+			var apellidos = prompt("¿Cuáles son sus apellidos?");
+
+			var pApellidos = document.getElementById("apellidos");
+			pApellidos.innerHTML = apellidos;
+		});
+
+		//Para preguntar la edad
+		var botonEdad = document.getElementById("preguntaEdad");
+
+		botonEdad.addEventListener("click", function(){
+			var edad = prompt("¿Cuál es su edad?");
+
+			var pAnnos = document.getElementById("annos");
+			pAnnos.innerHTML = edad;
+		});		
+
+
+
+	</script>
+
 
 </body>
 </html>

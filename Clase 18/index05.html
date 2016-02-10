@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf8">
+	<style>
+	article {
+		background-color: yellow;
+	}
+	</style>
+</head>
+<body>
+
+	<textarea id="texto"></textarea>
+
+	<article id="salida"></article>
+
+
+	<script>
+		var textArea = document.getElementById("texto");
+
+		textArea.addEventListener("keydown", function(){
+			var texto = textArea.value;
+			console.log(texto);
+
+			var salida = document.getElementById("salida");
+			salida.innerText = textArea.value;			
+		});
+
+
+	</script>
+
+
+
+
+
+</body>
+</html>
