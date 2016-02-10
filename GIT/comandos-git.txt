@@ -12,3 +12,6 @@ git commit -m "<<nombre de etiqueta>>"
 
 Para subir al repositorio
 git push origin master
+
+Para descargar archivos y/o carpetas nuevas o modificadas
+git pull origin master
