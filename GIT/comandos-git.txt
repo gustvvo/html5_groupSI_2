@@ -1,0 +1,2 @@
+Para descargar un repositorio
+git clone <<dirección repositorio>>
