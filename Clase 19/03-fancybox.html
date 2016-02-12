@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css">
+</head>
+<body>
+
+<a id="single_image" href="perro01.jpg" class="prueba">
+	<img src="perro01.jpg" alt=""/>
+</a>
+
+<a id="single_image" href="perro02.gif" class="prueba">
+	<img src="perro02.gif" alt=""/>
+</a>
+
+<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="fancybox/jquery.fancybox.js"></script>
+<script>
+	$(document).ready(function(){
+
+		$("a.prueba").fancybox();
+
+	});
+
+
+</script>
+</body>
+</html>
