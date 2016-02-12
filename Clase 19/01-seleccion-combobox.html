@@ -56,6 +56,15 @@
 
 	    	var map = new goo.Map(document.getElementById("map_canvas"), opciones);
 
+	    	var icono_marcador = "miMarcador.png";
+
+	    	var marker = new goo.Marker({
+		        map: map,
+		        position: latLng,
+		        draggable: false,
+		        icon: icono_marcador
+		    }); 
+
 
 
 		});
