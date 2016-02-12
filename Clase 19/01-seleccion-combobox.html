@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf8">
+	<style>
+	div.mapalocal {
+		width:800px;
+		height: 650px
+	}
+	</style>
+</head>
+<body>
+
+<p>Seleccione redes de uso</p>
+<p>
+	<select id="seleccionPeaje">
+		<option value="-12.082075512321737|-77.06604478993529">Mi Casa</option>
+		<option value="-12.124584104919519|-77.02785292698366">Mi Trabajo</option>
+		<option value="-12.102531063303056|-77.02587793166884">Area51</option>
+	</select>
+</p>
+
+<!-- En el siguiente DIV se dibujará el mapa de Google Maps -->
+<div class="mapalocal" id="map_canvas"></div>
+
+
+<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+<!-- Ésta es la caja de herramientas de Google Maps -->
+<script src='http://maps.google.com/maps/api/js'></script>
+
+<script>
+	$(document).ready(function(){
+
+		$("#seleccionPeaje").on("change", function(){
+				//Obtiene las coordenadas como texto
+				var peajeSeleccionado = $("#seleccionPeaje").val();
+
+				//Crear una lista que contenga las coordenadas separadas
+				var coordenadas = peajeSeleccionado.split("|");
+				//coordenadas:  el primero es la latitud "-12.87654" y el segundo es la longitud "-73.3328"
+
+				//En la posición 0 está la latitud. En la posición 1 está la longitud
+				var lat = coordenadas[0];
+				var lng = coordenadas[1];
+
+				var goo = google.maps;
+				var latLng = new goo.LatLng(lat,lng);
+
+				//Opciones para el mapa: centrado en las coordenadas con un zoom de 17 y el mapa de caminos
+				var opciones = {
+	      		center: latLng, //centrar en las coordenadas
+	        	zoom: 17, //acercamiento
+	        	mapTypeId: goo.MapTypeId.ROADMAP //tipo de mapa: mapa de caminos
+	    	};
+
+	    	var map = new goo.Map(document.getElementById("map_canvas"), opciones);
+
+
+
+		});
+
+
+	});
+
+</script>
+
+
+</body>
+</html>
